@@ -7,9 +7,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Antonio Lopez</title>
+        <title>We Make Websites</title>
       </Head>
-      <header className="bg-black">
+      <header>
         <Navbar />
       </header>
       <main>{children}</main>
