@@ -1,4 +1,4 @@
-const images = [
+export const images = [
   {
     id: 0,
     src: '/images/HelloIMG1656733583056.jpeg',
@@ -71,4 +71,19 @@ const images = [
   },
 ];
 
-export default images;
+export const services = [
+  { id: 0, title: 'Design & UX' },
+  { id: 1, title: 'Development' },
+  { id: 2, title: 'Replatforming' },
+  { id: 3, title: 'SEO & data migration' },
+  { id: 4, title: 'International expansion' },
+  { id: 5, title: 'Headless commerce' },
+  { id: 6, title: 'Conversion rate optimization' },
+  { id: 7, title: 'Performance enhancement' },
+  { id: 8, title: 'Systems integrations' },
+  { id: 9, title: 'Payments & checkout' },
+  { id: 10, title: 'Compliance' },
+  { id: 11, title: 'Accessibility' },
+  { id: 12, title: 'Online-to-offline strategy' },
+  { id: 13, title: 'Custom Shopify app development' },
+];

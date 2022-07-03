@@ -1,4 +1,4 @@
-import { Main, Portfolio, ChooseSucess } from '../components';
+import { Main, Portfolio, ChooseSucess, Services } from '../components';
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <Main />
       <Portfolio />
       <ChooseSucess />
+      <Services />
     </>
   );
 }

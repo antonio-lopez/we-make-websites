@@ -4,3 +4,4 @@ export { default as Main } from './Main';
 export { default as Portfolio } from './Portfolio';
 export { default as PortfolioCarousel } from './PortfolioCarousel';
 export { default as ChooseSucess } from './ChooseSucess';
+export { default as Services } from './Services';

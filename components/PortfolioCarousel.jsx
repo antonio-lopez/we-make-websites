@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import images from '../constants/images';
+import { images } from '../constants/data';
 
 const PortfolioCarousel = () => {
   return (
