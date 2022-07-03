@@ -11,4 +11,8 @@
     max-width: 68rem;
     @apply mx-auto w-11/12;
   }
+
+  .carousel-item {
+    @apply h-96 flex-col p-8 md:h-[31rem];
+  }
 }
