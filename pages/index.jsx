@@ -4,6 +4,7 @@ import {
   ChooseSucess,
   Services,
   Businesses,
+  International,
 } from '../components';
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <ChooseSucess />
       <Services />
       <Businesses />
+      <International />
     </>
   );
 }
