@@ -7,3 +7,5 @@ export { default as ChooseSucess } from './ChooseSucess';
 export { default as Services } from './Services';
 export { default as Businesses } from './Businesses';
 export { default as International } from './International';
+export { default as Blog } from './Blog';
+export { default as BlogCarousel } from './BlogCarousel';

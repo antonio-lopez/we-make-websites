@@ -5,6 +5,7 @@ import {
   Services,
   Businesses,
   International,
+  Blog,
 } from '../components';
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Services />
       <Businesses />
       <International />
+      <Blog />
     </>
   );
 }
