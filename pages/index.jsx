@@ -1,4 +1,10 @@
-import { Main, Portfolio, ChooseSucess, Services } from '../components';
+import {
+  Main,
+  Portfolio,
+  ChooseSucess,
+  Services,
+  Businesses,
+} from '../components';
 
 export default function Home() {
   return (
@@ -7,6 +13,7 @@ export default function Home() {
       <Portfolio />
       <ChooseSucess />
       <Services />
+      <Businesses />
     </>
   );
 }

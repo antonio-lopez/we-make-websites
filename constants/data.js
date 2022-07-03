@@ -87,3 +87,121 @@ export const services = [
   { id: 12, title: 'Online-to-offline strategy' },
   { id: 13, title: 'Custom Shopify app development' },
 ];
+
+export const businesses = [
+  {
+    id: 0,
+    src: '/images/HelloIMG1656733595147.png',
+    alt: 'Docker',
+  },
+  {
+    id: 1,
+    src: '/images/HelloIMG1656733595576.png',
+    alt: 'Hasbro',
+  },
+  {
+    id: 2,
+    src: '/images/HelloIMG1656733598904.png',
+    alt: 'Pangaia',
+  },
+  {
+    id: 3,
+    src: '/images/HelloIMG1656733599158.png',
+    alt: 'HyperX',
+  },
+  {
+    id: 4,
+    src: '/images/HelloIMG1656733599405.png',
+    alt: 'BBC',
+  },
+  {
+    id: 5,
+    src: '/images/HelloIMG1656733601153.png',
+    alt: 'APC',
+  },
+  {
+    id: 6,
+    src: '/images/HelloIMG1656733601592.png',
+    alt: 'Paul Valentine',
+  },
+  {
+    id: 7,
+    src: '/images/HelloIMG1656733601847.png',
+    alt: 'Alessi',
+  },
+  {
+    id: 8,
+    src: '/images/HelloIMG1656733602102.png',
+    alt: 'Harper Collins',
+  },
+  {
+    id: 9,
+    src: '/images/HelloIMG1656733603791.png',
+    alt: 'UFC Store',
+  },
+  {
+    id: 10,
+    src: '/images/HelloIMG1656733604046.png',
+    alt: 'Skinny Dip',
+  },
+  {
+    id: 11,
+    src: '/images/HelloIMG1656733605713.png',
+    alt: 'Emma Bridgewater',
+  },
+  {
+    id: 12,
+    src: '/images/HelloIMG1656733607400.png',
+    alt: 'HP',
+  },
+  {
+    id: 13,
+    src: '/images/HelloIMG1656733607838.png',
+    alt: 'Jigsaw',
+  },
+  {
+    id: 14,
+    src: '/images/HelloIMG1656733609510.png',
+    alt: 'Levis',
+  },
+  {
+    id: 15,
+    src: '/images/HelloIMG1656733609764.png',
+    alt: 'Conde Nast',
+  },
+  {
+    id: 16,
+    src: '/images/HelloIMG1656733611496.png',
+    alt: 'Good American',
+  },
+  {
+    id: 17,
+    src: '/images/HelloIMG1656733611761.png',
+    alt: 'Toast',
+  },
+  {
+    id: 18,
+    src: '/images/HelloIMG1656733611999.png',
+    alt: 'OM',
+  },
+  {
+    id: 19,
+    src: '/images/HelloIMG1656733612238.png',
+    alt: 'This Works',
+  },
+];
+
+export const moreBusinesses = [
+  { id: 0, title: 'Lauren Conrad Beauty' },
+  { id: 1, title: 'Neals Yard Remedies' },
+  { id: 2, title: 'Pepsico' },
+  { id: 3, title: 'Pure Electric' },
+  { id: 4, title: 'Third Man Records' },
+  { id: 5, title: 'Toast' },
+  { id: 6, title: 'Eyewear by David Beckham' },
+  { id: 7, title: 'Astrid & Miyu' },
+  { id: 8, title: 'Totême' },
+  { id: 9, title: 'Borough Kitchen' },
+  { id: 10, title: 'Missoma' },
+  { id: 11, title: 'This Works' },
+];
