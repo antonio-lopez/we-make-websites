@@ -321,3 +321,32 @@ export const blogData = [
     tag: 'strategy',
   },
 ];
+
+export const citiesA = [
+  { id: 0, city: 'Manchester' },
+  { id: 1, city: 'Cambridge' },
+  { id: 2, city: 'Vancouver' },
+  { id: 3, city: 'Toronto' },
+];
+
+export const citiesB = [
+  { id: 0, city: 'LA' },
+  { id: 1, city: 'Miami' },
+  { id: 2, city: 'Montreal' },
+];
+
+export const resources = [
+  { id: 0, city: 'Work' },
+  { id: 1, city: 'About' },
+  { id: 2, city: 'Blog' },
+  { id: 3, city: 'Resources' },
+  { id: 4, city: 'Glossary' },
+  { id: 5, city: 'Careers' },
+];
+
+export const social = [
+  { id: 0, city: 'LinkedIn' },
+  { id: 1, city: 'Twitter' },
+  { id: 2, city: 'Instagram' },
+  { id: 3, city: 'Shopify Plus Partner' },
+];
