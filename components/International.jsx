@@ -27,7 +27,7 @@ const International = () => {
           <hr className=" border-y-[1px]" />
         </div>
 
-        <p>
+        <p className="pb-10">
           To find out how we can help with your international e-commerce
           requirements, <span className="underline">reach out</span>.
         </p>
