@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import BlogCarousel from './BlogCarousel';
 
 const Blog = () => {
@@ -8,9 +9,14 @@ const Blog = () => {
           Get ahead with the latest in e‑commerce and Shopify Plus.
         </h1>
         <div className="pb-5">
-          <span className="border-b-2 border-black text-lg">
-            Visit our blog
-          </span>
+          <Link href="/" passHref>
+            <a
+              href="blog"
+              className="border-b-2 border-black text-lg hover:border-red-600 hover:text-red-600"
+            >
+              Visit our blog
+            </a>
+          </Link>
         </div>
       </div>
 

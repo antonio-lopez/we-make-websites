@@ -11,7 +11,10 @@ const Main = () => {
         <div className="mt-12 mb-4">
           <div className="mr-6">
             <Link href="/" passHref>
-              <a href="seewhy" className="inline-block border-b-2">
+              <a
+                href="seewhy"
+                className="inline-block border-b-2 hover:border-red-600 hover:text-red-600"
+              >
                 See why
               </a>
             </Link>

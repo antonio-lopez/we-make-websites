@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { services } from '../constants/data';
 
 const Services = () => {
@@ -37,9 +38,14 @@ const Services = () => {
               })}
             </ul>
             <div>
-              <span className="text-lg underline underline-offset-8">
-                Shopify Plus services
-              </span>
+              <Link href="/" passHref>
+                <a
+                  href="services"
+                  className="text-lg underline underline-offset-8 hover:border-red-600 hover:text-red-600"
+                >
+                  Shopify Plus services
+                </a>
+              </Link>
             </div>
           </div>
         </div>

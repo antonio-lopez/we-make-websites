@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import PortfolioCarousel from './PortfolioCarousel';
 
 const Portfolio = () => {
@@ -24,10 +25,14 @@ const Portfolio = () => {
           retailers we work with justice — and a whole lot more. Bolstering
           revenue, strengthening stats, and elevating their brands.
         </p>
-
-        <span className="underline underline-offset-8">
-          Our Shopify Plus projects
-        </span>
+        <Link href="/" passHref>
+          <a
+            href="projects"
+            className="underline underline-offset-8 hover:border-red-600 hover:text-red-600"
+          >
+            Our Shopify Plus projects
+          </a>
+        </Link>
       </div>
       <PortfolioCarousel />
     </section>

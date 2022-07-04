@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from 'next/link';
 import { blogData } from '../constants/data';
 
 const BlogCarousel = () => {
@@ -7,11 +8,15 @@ const BlogCarousel = () => {
       {blogData.map((data) => {
         return (
           <div className="carousel-item h-80 w-72" key={data.id}>
-            <img
-              className="h-44 w-72 object-cover "
-              src={data.src}
-              alt={data.alt}
-            />
+            <Link href="/" passHref>
+              <a href="blog">
+                <img
+                  className="h-44 w-72 object-cover "
+                  src={data.src}
+                  alt={data.alt}
+                />
+              </a>
+            </Link>
             <div className="flex h-full items-center justify-between pt-3 text-xs uppercase">
               <span>{data.date}</span>
               <span>{data.tag}</span>
