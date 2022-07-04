@@ -350,3 +350,13 @@ export const social = [
   { id: 2, link: 'Instagram' },
   { id: 3, link: 'Shopify Plus Partner' },
 ];
+
+export const mobileLinks = [
+  { id: 0, mobileLink: 'Work' },
+  { id: 1, mobileLink: 'Services' },
+  { id: 2, mobileLink: 'About' },
+  { id: 3, mobileLink: 'Careers' },
+  { id: 4, mobileLink: 'Resources' },
+  { id: 5, mobileLink: 'Blog' },
+  { id: 6, mobileLink: 'Contact' },
+];
