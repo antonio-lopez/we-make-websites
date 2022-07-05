@@ -7,7 +7,7 @@ const Services = () => {
     <section className="bg-black py-6 text-white">
       <div className="flex flex-col-reverse md:flex-row md:items-center">
         {/* left image section */}
-        <div className="md:w-2/5">
+        <div className="md:h-[32rem] md:w-3/5 md:pr-8">
           <div className="relative h-[32rem] md:h-full md:max-w-7xl">
             <Image
               src="/images/HelloIMG1656733591870.jpeg"
@@ -19,7 +19,7 @@ const Services = () => {
         </div>
 
         {/* right text section */}
-        <div className="px-6 py-12 md:w-3/5">
+        <div className="px-6 py-12 md:w-3/5 ">
           <div className="md:ml-1/6 lg:ml-1/5 my-8 px-0 md:w-4/6 md:px-0 lg:w-3/5">
             <h1 className="mb-4 text-2xl">Our e-commerce services</h1>
             <p className=" mb-6 opacity-60">

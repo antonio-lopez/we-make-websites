@@ -27,7 +27,7 @@ const ChooseSucess = () => {
             </div>
           </div>
           {/* left section quote */}
-          <div className="my-16 space-y-8 px-8 md:mt-28 md:w-3/5 md:px-0">
+          <div className="my-16 space-y-8 px-8 md:mt-28 md:w-full md:px-20">
             <p className="relative text-xl">
               <span className="absolute top-0 left-0 -mt-1 -ml-4 text-4xl">
                 &ldquo;

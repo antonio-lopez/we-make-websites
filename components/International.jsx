@@ -2,7 +2,7 @@ const International = () => {
   return (
     <section className="bg-black text-white">
       <div className="layout">
-        <h1 className="py-10 pr-20 text-3xl">
+        <h1 className="py-10 pr-20 text-3xl md:py-28">
           Breaking the borders of international e-commerce through Shopify Plus.
         </h1>
 

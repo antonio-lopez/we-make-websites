@@ -8,7 +8,7 @@ const Main = () => {
         <h1 className=" mt-[20vh] mb-9 text-3xl">
           WMW, the Shopify Plus agency for international brands.
         </h1>
-        <div className="mt-12 mb-4">
+        <div className="mt-12 mb-4 md:mb-16">
           <div className="mr-6">
             <Link href="/" passHref>
               <a
