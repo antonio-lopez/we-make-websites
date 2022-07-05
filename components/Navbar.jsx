@@ -52,6 +52,24 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+
+        {/* desktop links */}
+        <ul className="hidden space-x-4 not-italic lg:flex lg:text-lg ">
+          {mobileLinks.map((link) => {
+            return (
+              <li key={link.id}>
+                <Link href="/" passHref>
+                  <a
+                    className="hover:border-b-2 hover:border-red-600 hover:text-red-600"
+                    href="link"
+                  >
+                    {link.mobileLink}
+                  </a>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </nav>
   );

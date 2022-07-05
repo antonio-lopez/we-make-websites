@@ -2,8 +2,8 @@
 const Subscribe = () => {
   return (
     <section className="bg-white text-black">
-      <div className="layout md:flex">
-        <h1 className="mb-10 py-8 pr-8 text-2xl md:py-16">
+      <div className="layout md:flex lg:py-10">
+        <h1 className="mb-10 py-8 pr-8 text-2xl md:py-16 lg:pr-28 lg:text-3xl">
           Be the first to hear about what’s hot in e‑commerce and Shopify Plus.
           Straight to your inbox.{' '}
         </h1>
@@ -25,7 +25,7 @@ const Subscribe = () => {
               </button>
             </div>
           </form>
-          <p className="py-10 text-xs">
+          <p className="py-10 text-xs lg:text-base">
             By providing your email, you agree for us to contact you via email
             with e‑commerce advice. Your data is stored securely and we never
             pass it on to third parties.

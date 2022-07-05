@@ -4,9 +4,9 @@ const ChooseSucess = () => {
   return (
     <section className="bg-black py-6 text-white">
       {/* heading */}
-      <div className="layout px-4 ">
-        <div className="md:mr-1/2 md:w-3/5 lg:pr-12 xl:pr-16">
-          <h1 className="text-2xl">
+      <div className="layout px-4">
+        <div className="md:mr-1/2 md:mr-0 md:w-3/5 lg:pr-12 xl:pr-16">
+          <h1 className="text-2xl lg:text-5xl">
             When leading brands choose Shopify Plus, they choose us as their
             agency partner.
           </h1>
@@ -28,7 +28,7 @@ const ChooseSucess = () => {
           </div>
           {/* left section quote */}
           <div className="my-16 space-y-8 px-8 md:mt-28 md:w-full md:px-20">
-            <p className="relative text-xl">
+            <p className="relative text-xl lg:text-3xl">
               <span className="absolute top-0 left-0 -mt-1 -ml-4 text-4xl">
                 &ldquo;
               </span>

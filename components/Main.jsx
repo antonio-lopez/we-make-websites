@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <section className="bg-black py-6 text-white">
       <div className="layout px-4">
-        <h1 className=" mt-[20vh] mb-9 text-3xl">
+        <h1 className=" mt-[20vh] mb-9 text-3xl lg:w-1/2 lg:text-5xl">
           WMW, the Shopify Plus agency for international brands.
         </h1>
         <div className="mt-12 mb-4 md:mb-16">
@@ -22,9 +22,9 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="relative mx-auto h-96 w-full md:max-w-7xl">
+      <div className="relative mx-auto h-96 w-full md:max-w-7xl lg:my-10">
         <Image
-          src="/images/WMW-Reel-Teaser-V10-Mobile.jpg"
+          src="/images/see-why.png"
           layout="fill"
           objectFit="contain"
           alt="portfolio example"

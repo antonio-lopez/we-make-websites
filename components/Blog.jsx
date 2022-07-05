@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <section className=" bg-[#f0f0f0] text-black">
       <div className="layout">
-        <h1 className="py-10 text-xl">
+        <h1 className="py-10 text-xl lg:w-1/2 lg:text-3xl">
           Get ahead with the latest in e‑commerce and Shopify Plus.
         </h1>
         <div className="pb-5">

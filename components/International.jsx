@@ -1,12 +1,12 @@
 const International = () => {
   return (
-    <section className="bg-black text-white">
+    <section className="bg-black text-white lg:pb-8">
       <div className="layout">
-        <h1 className="py-10 pr-20 text-3xl md:py-28">
+        <h1 className="py-10 pr-20 text-3xl md:py-28 lg:w-2/3 lg:py-40 lg:text-5xl">
           Breaking the borders of international e-commerce through Shopify Plus.
         </h1>
 
-        <p className="pr-24 pb-9 text-sm">
+        <p className="pr-24 pb-9 text-sm lg:text-base">
           As a modern brand, you know that owning your customer relationships
           and data with a direct‑to‑consumer website is crucial. But it’s not
           just about doing D2C e‑commerce, it’s about having an online store
@@ -27,7 +27,7 @@ const International = () => {
           <hr className=" border-y-[1px]" />
         </div>
 
-        <p className="pb-10">
+        <p className="pb-10 lg:py-10">
           To find out how we can help with your international e-commerce
           requirements, <span className="underline">reach out</span>.
         </p>
