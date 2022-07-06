@@ -16,9 +16,9 @@
 
 ## About The Project
 
-🌐 [Live Demo]()
+🌐 [Live Demo](https://we-make-websites.vercel.app/)
 
-![screenshot](./public/home-screenshot.png)
+![screenshot](./public/homepage-screenshot.png)
 
 - A responsive Next.js application.
 - Tailwind CSS for styling
@@ -52,13 +52,13 @@ Before you begin, ensure you have met the following requirements:
 Clone repository
 
 ```
-git clone
+git clone https://github.com/antonio-lopez/we-make-websites.git
 ```
 
 Install dependencies
 
 ```
-cd
+cd we-make-websites
 npm install
 ```
 
@@ -67,7 +67,7 @@ npm install
 ## Usage
 
 ```
-cd
+cd we-make-websites
 npm run dev
 ```
 
