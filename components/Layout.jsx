@@ -7,7 +7,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>We Make Websites</title>
+        <title>
+          Shopify Plus Agency | We Make Websites | Shopify Designers &
+          Developers
+        </title>
       </Head>
       <header>
         <Navbar />
