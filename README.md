@@ -2,7 +2,7 @@
 
 # We Build Websites Agency
 
-> A Tailwind CSS exercise replicating the [We Make Websites](https://wemakewebsites.com/) agency home page.
+> A responsive replication of the [We Make Websites](https://wemakewebsites.com/) agency home page using Tailwind CSS.
 
 ## Table of contents
 
